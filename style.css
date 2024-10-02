@@ -1,0 +1,552 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tesla-logo{
+    height: 20px;
+    width: 120px;
+    margin: 1rem 0 0 3rem;
+    color: #fff;
+}
+/* ...NAV BAR SECTION... */
+
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: none;
+    align-items: center;
+    position: fixed;
+    display: flex;
+}
+/* ...NAV LIST SECTION... */
+
+.center-nav{
+    height: 2rem;
+    flex: 8;
+}
+/* ...NAV RIGHT ICONS... */
+
+.right-nav{
+    flex: 3;
+    margin: 0px;
+    display: flex;
+}
+
+.menu-list{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list{
+    margin: 0 0.5rem;
+}
+
+.nav-list a{
+    text-decoration: none;
+    width: 2rem;
+    padding: 5px 10px;
+    font-size: 1rem;
+    font-stretch: expanded;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.nav-list >a:hover{
+    background-color: rgb(157, 145, 145);
+    border-radius: 5px;
+}
+
+.container1{
+    background-image: url('images/Homepage.avif');
+    width: 100%;
+    min-height: 698px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.container1 img{
+    width: 100%;
+    height: 10%;
+}
+
+.container1 .text1{
+    position: absolute;
+    top:80px;
+    left: 41%;
+    font-weight:lighter;
+    color: #fff;
+}
+.container1 .text1 h2{
+    font-size: 56px;
+    padding-left: 15px;
+}
+
+.container1 .text1 h3{
+    font-size: 27px;
+    left:40%;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 7px;
+}
+
+.container1 .text1 p{
+    font-size: 17px;
+    font-weight: bold;
+    padding-left: 60px;
+    padding-top: 10px;
+}
+
+ .container1 .button1{
+    position: absolute;
+    bottom:27px;
+    left:32%;
+}
+
+.button1 button{
+    width: 275px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+/* ...CONTAINER 2... */
+
+.container2{
+    background-image: url('images/model3.avif');
+    width: 100%;
+    min-height: 698px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.container2 .text2{
+    position: absolute;
+    left: 41%;
+    top: 80px;
+    color: #fff;
+    
+}
+
+.text2 h2{
+    font-size: 56px;
+    padding-left:15px ;
+
+}
+.text2 h3{
+    font-size: 27px;
+    text-decoration: underline;
+    text-decoration-thickness:1px;
+    text-underline-offset: 7px;
+
+}
+.text2 p{
+    font-size: 17px;
+    padding-left: 60px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.container2 .button2 {
+    position: absolute;
+    left: 32%;
+    bottom: 27px;
+}
+
+.button2 button{
+    width: 275px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+/* ...CONTAINER 3... */
+
+.container3{
+    background-image: url('images/Model-X.avif');
+    width: 100%;
+    min-height: 698px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.container3 .text3{
+    position: absolute;
+    left: 41%;
+    top: 80px;
+    color: #fff;
+
+}
+
+.text3 h2{
+    font-size: 56px;
+    padding-left:15px ;
+}
+
+.text3 h3{
+    font-size: 27px;
+    padding-left: 30px;
+
+}
+
+.text3 p{
+    font-size: 17px;
+    padding-top: 10px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-thickness:1px;
+    text-underline-offset: 7px;
+}
+
+sup{
+    font-size: 0.5em;
+    margin-left: -8px;
+
+}
+
+
+.container3 .button3{
+    position: absolute;
+    left: 32%;
+    bottom: 27px;
+}
+
+.button3 button{
+    width: 275px;
+    height:40px ;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+    font-weight: bold;
+    
+}
+
+/* ...CONTAINER 4... */
+
+.container4{
+    background-image: url('images/Model-S.avif');
+    width: 100%;
+    height: 698px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.container4 .text4{
+    position: absolute;
+    left: 41%;
+    top: 80px;
+    color: #fff;
+
+}
+
+.text4 h2{
+    font-size: 56px;
+    padding-left:15px ;
+}
+
+.text4 h3{
+    font-size: 27px;
+    padding-left: 30px;
+
+}
+
+.text4 p{
+    font-size: 17px;
+    padding-top: 10px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-thickness:1px;
+    text-underline-offset: 7px;
+}
+
+.container4 .button4{
+    position: absolute;
+    left: 32%;
+    bottom: 27px;
+
+}
+
+.button4 button{
+    width: 275px;
+    height:40px ;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+    font-weight: bold;
+
+}
+
+/* ...CONTAINER 5... */
+
+.container5{
+    background-image: url('images/Cybertruck.avif');
+    width: 100%;
+    height: 698px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.container5 .logo-img img{
+    position: absolute;
+    top: 20px;
+    left: 35%;
+    width:32%;
+    height: auto;
+}
+
+.container5 .button5{
+    position: absolute;
+    left: 32%;
+    bottom: 27px;
+
+}
+
+.button5 button{
+    width: 275px;
+    height:40px ;
+    border: none;
+    margin-right: 10px;
+    font-weight: bold;
+    color: #fff;
+    background-color:black;
+    opacity:80%;
+}
+
+/* ...CONTAINER 6... */
+.container6{
+    background-image: url('images/SolarPanels.avif');
+    width: 100%;
+    height: 698px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.container6 .text6{
+    position: absolute;
+    left: 35%;
+    top: 80px;
+    color: #fff;
+
+}
+
+.text6 h2{
+    font-size: 56px;
+    padding-left: 35px;
+
+}
+
+.text6 h3{
+    font-size: 27px;
+    text-decoration: underline;
+    text-decoration-thickness:1px;
+    text-underline-offset: 7px;
+
+}
+
+.container6 .button6{
+    position: absolute;
+    left: 32%;
+    bottom: 27px;
+
+}
+
+.button6 button{
+    width: 275px;
+    height:40px ;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+/* ...CONTAINER 7... */
+
+.container7{
+    background-image: url("images/SolarRoof.avif");
+    width: 100%;
+    height: 698px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+.container7 .text7{
+    position: absolute;
+    left: 35%;
+    top: 80px;
+    color: #fff;
+
+}
+
+.text7 h2{
+    font-size: 56px;
+    padding-left: 100px;
+
+}
+
+.text7 h3{
+
+    font-size: 27px;
+}
+
+.container7 .button7{
+    position:absolute;
+    left: 32%;
+    bottom: 27px;
+
+}
+
+.button7 button{
+    width: 275px;
+    height:40px ;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+    font-weight: bold;
+
+}
+
+/* ...CONTAINER 8... */
+
+.container8{
+    background-image: url('images/Powerwall.avif');
+    width: 100%;
+    height: 698px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.container8 .text8{
+    position: absolute;
+    left: 35%;
+    top: 80px;
+    color: #fff;
+
+}
+
+.text8 h2{
+    font-size: 56px;
+    padding-left: 100px;
+
+}
+
+.container8 .button8{
+    position:absolute;
+    left: 32%;
+    bottom: 27px;
+}
+
+.button8 button{
+    width: 275px;
+    height:40px ;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+/* ...CONTAINER 9... */
+
+.container9{
+    background-image: url('images/Accessories.avif');
+    width: 100%;
+    height: 698px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.container9 .text9{
+    position: absolute;
+    left: 30%;
+    top: 80px;
+    color: #fff;
+
+}
+.text9 h2{
+    font-size: 56px;
+    padding-left: 100px;
+
+}
+
+.container9 .button9{
+    position:absolute;
+    left: 40%;
+    bottom: 27px;
+}
+
+.button9 button{
+
+    width: 275px;
+    height:40px ;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+    font-weight: bold;
+    color: #fff; 
+    background-color: rgb(35, 107, 201)
+
+}
+
+/* ...FOOTER... */
+
+footer{
+    background-color: black;
+    color:rgb(182, 179, 179);
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.footer-text{
+    padding-top: 50px;
+    font-size: 12px;
+    font-weight: 500;
+    padding-bottom: 30px;
+    line-height: 17px;
+    text-align: center;
+}
+
+.footer-text a{
+    color: rgb(182, 179, 179);
+    font-weight: bold;
+}
+
+.footer-link{
+    
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.footer-link a{
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    margin-left: 20px;
+
+}
